@@ -16,12 +16,13 @@ function App() {
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <main className="flex-grow">
-            <Routes>
+            <Home />
+            {/* <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
               <Route path="/contact" element={<Contact />} />
-            </Routes>
+            </Routes> */}
           </main>
           <Footer />
         </div>
